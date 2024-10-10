@@ -9,3 +9,5 @@ const impresoraSchema = new Schema ({
 })
 
 export default model("Impresora", impresoraSchema);
+
+//algo
