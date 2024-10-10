@@ -1,6 +1,7 @@
-import "dotenv/config";
-import Server from "./models/server.js";
+import dotenv from "dotenv";
+import Server from "./server/Server";
 
-const server = new Server(); //Instanciar clase Server
+// Cargar variables de entorno
+dotenv.config();
 
-// server.listen()
+const server = new Server();
