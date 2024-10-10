@@ -8,3 +8,5 @@ const camaraSchema = new Schema ({
 })
 
 export default model("Camara", camaraSchema);
+
+//alsss
